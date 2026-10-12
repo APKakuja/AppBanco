@@ -2,4 +2,17 @@
     <string name="app_name">AppBanco</string>
     <string name="male">MALE</string>
     <string name="female">FEMALE</string>
+    <string name="altura">HEIGHT</string>
+    <string name="peso">WEIGHT</string>
+    <string name="appTittle">B &amp; O BMI CALCULATOR</string>
+    <string name="age">AGE</string>
+    <string name="maleSymb">Male Symbol</string>
+    <string name="femaleSymb">Female Symbol</string>
+    <string name="calculateBtn">Button for calculating</string>
+    <string name="AddWeigthBtn">Button for adding weight</string>
+    <string name="SubstractAgeBtn">Button for substrating age</string>
+    <string name="SubstractWeightBtn">Button for substracting weight</string>
+    <string name="BaseHeight">120 cm</string>
+    <string name="CalculateBtn">CALCULATE</string>
+
 </resources>
