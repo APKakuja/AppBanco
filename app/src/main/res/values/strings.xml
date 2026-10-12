@@ -14,5 +14,21 @@
     <string name="SubstractWeightBtn">Button for substracting weight</string>
     <string name="BaseHeight">120 cm</string>
     <string name="CalculateBtn">CALCULATE</string>
+    <string name="result">Your Results</string>
+    <string name="ReCalculate">Re-Calculate</string>
+    <string name="Error">Error</string>
+    <string name="low_weight">Underweight</string>
+    <string name="low_weight_description">You are under the recommended weight</string>
+    <string name="normal_weight">Normal</string>
+    <string name="normal_weight_description">You are on your optimal weight</string>
+    <string name="over_weight">Overweight</string>
+    <string name="over_weight_description">You are considered overweight</string>
+    <string name="obese_weight">Obese</string>
+    <string name="obese_weight_description">You are considered obese</string>
+
+
+
+
+
 
 </resources>

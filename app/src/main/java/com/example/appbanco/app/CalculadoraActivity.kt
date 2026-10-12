@@ -1,5 +1,6 @@
 package com.example.appbanco.app
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
@@ -103,17 +104,24 @@ class CalculadoraActivity : AppCompatActivity() {
         }
 
         btnCalculate.setOnClickListener {
-            calculateIMG()
+            val result = calculateIMG()
+            navigateToResult(result)
         }
 
     }
 
-    private fun calculateIMG() {
+    private fun navigateToResult(result: Double) {
+        val intent = Intent(this, Resultats::class.java)
+        intent.putExtra("IMC_RESULT", result)
+        startActivity(intent)
+    }
+
+    private fun calculateIMG():Double {
 
         val df = DecimalFormat()
         val imc = currentWeight/ (currentHeight.toDouble()/100 * currentHeight.toDouble()/100)
-        val result = df.format(imc).toDouble()
-        Log.i("appIMC", "IMC is $imc")
+        return df.format(imc).toDouble()
+
     }
 
     private fun setWeight() {
